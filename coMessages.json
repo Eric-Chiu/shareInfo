@@ -1,0 +1,1371 @@
+{
+	"INFO": {
+		"Name": "CO_MESSAGES",
+		"Timestamp": "2020-08-19 11:11:11",
+		"Version": "L1.0R0",
+		"ID": "320",
+		"messages": {
+			"message": [
+				{
+					"Eng": {
+						"cdata-section": ": Under France PMU’s Horse Race Betting Rules, PMU may declare in the same race any two or more horses to be in the same group (Couple), such that if one horse in such group wins and becomes a winning combination for Win, all the other horses in the group which have run the race will be paid the same Win dividends."
+					},
+					"Chi": {
+						"cdata-section": ": 根據法國PMU的賽馬博彩規例，PMU可在同一場賽事中宣佈任何兩匹或以上的馬匹為同一組別(Couple)。若組別內任何一匹馬勝出成爲獨贏勝出組合，其他所有有出賽的同組別的馬匹，均與勝出馬匹獲同一樣獨贏派彩。"
+					},
+					"KEY": "Outbound_ResultDividend_CoupleGroupingRemark"
+				},
+				{
+					"Eng": {
+						"cdata-section": "Under France PMU’s Horse Race Betting Rules, PMU may declare in the same race any two or more horses to be in the same group (Couple), such that if one horse in such group wins and becomes a winning combination for Win, all the other horses in the group which have run the race will be paid the same Win odds."
+					},
+					"Chi": {
+						"cdata-section": "根據法國PMU的賽馬博彩規例，PMU可在同一場賽事中宣佈任何兩匹或以上的馬匹為同一組別(Couple)。若組別內任何一匹馬勝出成爲獨贏勝出組合，其他所有有出賽的同組別的馬匹，均與勝出馬匹獲同一樣獨贏賠率。"
+					},
+					"KEY": "Outbound_CoupleGroupingRemark"
+				},
+				{
+					"Eng": {
+						"cdata-section": "The grouping of the declared starters in this race as Couple:"
+					},
+					"Chi": {
+						"cdata-section": "以下為宣佈出賽馬匹之組別 (Couple):"
+					},
+					"KEY": "Outbound_CoupleGroupingTableHeader"
+				},
+				{
+					"Eng": {
+						"cdata-section": ": {:BetType} bets outbound commingled into France PMU pool."
+					},
+					"Chi": {
+						"cdata-section": ": {:BetType}投注匯出到法國PMU彩池。"
+					},
+					"KEY": "Outbound_OutboundComminglePool"
+				},
+				{
+					"Eng": {
+						"cdata-section": ": In case if outbound commingling with France PMU is not available for {:BetType} bets, the above odds will be calculated based on Hong Kong pool only."
+					},
+					"Chi": {
+						"cdata-section": ": 若{:BetType}投注未能匯出到法國PMU彩池，上列賠率只根據香港彩池計算。"
+					},
+					"KEY": "Outbound_OutboundUnCommingled"
+				},
+				{
+					"Eng": {
+						"cdata-section": ": {:BetType} odds is calculated based on the commingled pool in France PMU which is for reference only."
+					},
+					"Chi": {
+						"cdata-section": ": {:BetType}賠率以法國PMU匯合彩池計算，只供參考。"
+					},
+					"KEY": "Outbound_OutboundComminglePoolReference"
+				},
+				{
+					"Eng": {
+						"cdata-section": ": {:BetType} odds are calculated based on the commingled pool in France PMU which are for reference only. Place odds displayed is the minimum value odds in the odds range of France PMU pool. The final Place odds could either be the same or higher than the value indicated."
+					},
+					"Chi": {
+						"cdata-section": ": {:BetType}賠率以法國PMU匯合彩池計算，只供參考。上列位置賠率為法國PMU彩池賠率範圍內的最低賠率。最終位置賠率可等同或高於所示賠率。"
+					},
+					"KEY": "Outbound_OutboundComminglePoolReferences"
+				},
+				{
+					"Eng": {
+						"cdata-section": ": {:BetType} is in Hong Kong separate pool."
+					},
+					"Chi": {
+						"cdata-section": ": {:BetType}為香港獨立彩池。"
+					},
+					"KEY": "Outbound_LocalPool"
+				},
+				{
+					"Eng": {
+						"cdata-section": ": {:BetType} are in Hong Kong separate pools."
+					},
+					"Chi": {
+						"cdata-section": ": {:BetType}為香港獨立彩池。"
+					},
+					"KEY": "Outbound_LocalPools"
+				},
+				{
+					"Eng": {
+						"cdata-section": "(same owner)"
+					},
+					"Chi": {
+						"cdata-section": "(同一馬主)"
+					},
+					"KEY": "Outbound_SameOwner"
+				},
+				{
+					"Eng": {
+						"cdata-section": ": {:BetType} commingled pool turnover in France PMU pool."
+					},
+					"Chi": {
+						"cdata-section": ": 法國PMU匯合彩池{:BetType}投注額 "
+					},
+					"KEY": "Outbound_PoolInvestment"
+				},
+				{
+					"Eng": {
+						"cdata-section": ": In case if outbound commingling with France PMU is not available for {:BetType} bets, the above dividends are calculated based on Hong Kong pool only."
+					},
+					"Chi": {
+						"cdata-section": ": 若{:BetType}投注未能匯出到法國PMU彩池，上列派彩只根據香港彩池計算。"
+					},
+					"KEY": "Outbound_ResultDividend"
+				},
+				{
+					"Eng": {
+						"cdata-section": ": In case if outbound commingling with France PMU is not available for {:BetType} bets, the above dividends are calculated based on Hong Kong pool only."
+					},
+					"Chi": {
+						"cdata-section": ": 若{:BetType}投注未能匯出到法國PMU彩池，上列派彩只根據香港彩池計算。"
+					},
+					"KEY": "Outbound_ResultDividends"
+				},
+				{
+					"Eng": {
+						"cdata-section": "Win and Place"
+					},
+					"Chi": {
+						"cdata-section": "獨贏及位置"
+					},
+					"KEY": "Outbound_WinAndPlace"
+				},
+				{
+					"Eng": {
+						"cdata-section": "Win"
+					},
+					"Chi": {
+						"cdata-section": "獨贏"
+					},
+					"KEY": "Outbound_Win"
+				},
+				{
+					"Eng": {
+						"cdata-section": "Place"
+					},
+					"Chi": {
+						"cdata-section": "位置"
+					},
+					"KEY": "Outbound_Place"
+				},
+				{
+					"Eng": {
+						"cdata-section": "Note"
+					},
+					"Chi": {
+						"cdata-section": "註"
+					},
+					"KEY": "Outbound_Note"
+				},
+				{
+					"Eng": {
+						"cdata-section": ": {:BetType} bets outbound commingled into France PMU pool. Place odds displayed is the minimum value odds in the odds range of France PMU pool. The final Place odds could either be the same or higher than the value indicated."
+					},
+					"Chi": {
+						"cdata-section": ": {:BetType}投注匯出到法國PMU彩池。上列位置賠率為法國PMU彩池賠率範圍內的最低賠率。最終位置賠率可等同或高於所示賠率。"
+					},
+					"KEY": "Outbound_OutboundComminglePool_Win_Place"
+				},
+				{
+					"Eng": {
+						"cdata-section": ": {:BetType} odds is calculated based on the commingled pool in France PMU which is for reference only. Place odds displayed is the minimum value odds in the odds range of France PMU pool. The final Place odds could either be the same or higher than the value indicated."
+					},
+					"Chi": {
+						"cdata-section": ": {:BetType}賠率以法國PMU匯合彩池計算，只供參考。上列位置賠率為法國PMU彩池賠率範圍內的最低賠率。最終位置賠率可等同或高於所示賠率。"
+					},
+					"KEY": "Outbound_OutboundComminglePoolReference_Place"
+				},
+				{
+					"Eng": {
+						"cdata-section": "If you confirm to turn off Fingerprint Authentication, you can only use login name and password to login."
+					},
+					"Chi": {
+						"cdata-section": "如確定關閉指紋認證， 閣下只可使用登入名稱及密碼登入。"
+					},
+					"KEY": "FP_Fingerprint_SwitchOff"
+				},
+				{
+					"Eng": {
+						"cdata-section": "If you confirm to turn off Face ID Authentication, you can only use login name and password to login."
+					},
+					"Chi": {
+						"cdata-section": "如確定關閉Face ID認證， 閣下只可使用登入名稱及密碼登入。"
+					},
+					"KEY": "FP_FaceID_SwitchOff"
+				},
+				{
+					"Eng": {
+						"cdata-section": "Instant Deposit"
+					},
+					"Chi": {
+						"cdata-section": "即時存款"
+					},
+					"KEY": "FPS_Transaction_Method_InstantDeposit"
+				},
+				{
+					"Eng": {
+						"cdata-section": "Instant Withdrawal"
+					},
+					"Chi": {
+						"cdata-section": "即時提款"
+					},
+					"KEY": "FPS_Transaction_Method_InstantWithdrawal"
+				},
+				{
+					"Eng": {
+						"cdata-section": "Autopay Withdrawal (Required 1 working day)"
+					},
+					"Chi": {
+						"cdata-section": "自動轉賬提款 (需時1個工作天)"
+					},
+					"KEY": "FPS_Transaction_Method_AutopayWithdrawal"
+				},
+				{
+					"Eng": {
+						"cdata-section": "Instant online withdrawal allows between ${:EPSCO_lower_limit} and ${:EPSCO_upper_limit}. Once exceeded, transaction will be processed via Autopay within 1 working day and limited to ${:Autopay_upper_limit}."
+					},
+					"Chi": {
+						"cdata-section": "網上即時提款的交易金額由 ${:EPSCO_lower_limit}至${:EPSCO_upper_limit}。其它金額將經由自動轉賬方式處理，需時大約1個工作天，上限為 ${:Autopay_upper_limit}。"
+					},
+					"KEY": "EPSCO_InstantWithdrawal_ExceedEPSCOLowerToUpperLimit"
+				},
+				{
+					"Eng": {
+						"cdata-section": "Instant online withdrawal allows up to ${:EPSCO_upper_limit}. Once exceeded, transaction will be processed via Autopay within 1 working day and limited to ${:Autopay_upper_limit}."
+					},
+					"Chi": {
+						"cdata-section": "網上即時提款的上限為${:EPSCO_upper_limit}。若超過上限，該筆款項將經由自動轉賬方式處理，需時大約1個工作天，上限為${:Autopay_upper_limit}。"
+					},
+					"KEY": "EPSCO_InstantWithdrawal_ExceedUpperLimit"
+				},
+				{
+					"Eng": {
+						"cdata-section": "Instant online withdrawal allows up to ${:FPS_upper_limit}. Once exceeded, transaction will be processed via Autopay within 1 working day and limited to ${:Autopay_upper_limit}."
+					},
+					"Chi": {
+						"cdata-section": "網上即時提款的上限為${:FPS_upper_limit}。若超過上限，該筆款項將經由自動轉賬方式處理，需時大約1個工作天，上限為${:Autopay_upper_limit}。"
+					},
+					"KEY": "FPS_InstantWithdrawal_ExceedFPSUpperLimit"
+				},
+				{
+					"Eng": {
+						"cdata-section": "Fingerprint Authentication has been activated on this application by another user account. If you would like to reset Fingerprint Authentication for yourself, please re-install the application first."
+					},
+					"Chi": {
+						"cdata-section": "此應用程式已被其他用戶啟動指紋認證。如閣下需要重設指紋認證，請重新安裝此應用程式。"
+					},
+					"KEY": "FP_BlockAnotherUserToDeactivateFingerprint"
+				},
+				{
+					"Eng": {
+						"cdata-section": "Face ID Authentication has been activated on this application by another user account. If you would like to reset Face ID Authentication for yourself, please re-install the application first."
+					},
+					"Chi": {
+						"cdata-section": "此應用程式經已被其他用戶啟動Face ID 認證。如閣下需要重設Face ID 認證，請重新安裝此應用程式。"
+					},
+					"KEY": "FP_BlockAnotherUserToDeactivateFaceID"
+				},
+				{
+					"Eng": {
+						"cdata-section": "Fingerprint Authentication has not been enabled on this device. Please enable it from your device settings menu first."
+					},
+					"Chi": {
+						"cdata-section": "此流動裝置並沒有啟動指紋認證功能。請先在系統中啟動。"
+					},
+					"KEY": "FP_iOS_FingerprintAuthNotEnabled"
+				},
+				{
+					"Eng": {
+						"cdata-section": "Fingerprint Authentication has not been enabled on this device. Please enable it from your device settings menu first."
+					},
+					"Chi": {
+						"cdata-section": "此流動裝置並沒有啟動指紋認證功能。請先在系統中啟動。"
+					},
+					"KEY": "FP_AOS_FingerprintAuthNotEnabled"
+				},
+				{
+					"Eng": {
+						"cdata-section": "Face ID Authentication has not been enabled on this device. Please enable it from your device settings menu first."
+					},
+					"Chi": {
+						"cdata-section": "此流動裝置並沒有啟動Face ID認證功能。請先在系統中啟動。"
+					},
+					"KEY": "FP_iOS_FaceIDAuthNotEnabled"
+				},
+				{
+					"Eng": {
+						"cdata-section": "Face ID authentication has been turned off for this app. Please turn it on from your device settings menu."
+					},
+					"Chi": {
+						"cdata-section": "Face ID認證的使用權限已被關閉。請先在系統中重新啓動。"
+					},
+					"KEY": "FP_BiometricAuthTurnOffOnOS"
+				},
+				{
+					"Eng": {
+						"cdata-section": "You have too many failed fingerprint attempts. Please login with login name and password."
+					},
+					"Chi": {
+						"cdata-section": "閣下已多次使用無法辨識的指紋登入。請使用登入名稱及密碼登入。"
+					},
+					"KEY": "FP_AOS_FingerprintLogin_ExceedMaxAttemptsLocked"
+				},
+				{
+					"Eng": {
+						"cdata-section": "You have too many failed fingerprint attempts. Please login with login name and password."
+					},
+					"Chi": {
+						"cdata-section": "閣下已多次使用無法辨識的指紋登入。請使用登入名稱及密碼登入。"
+					},
+					"KEY": "FP_iOS_FingerprintLogin_ExceedMaxAttemptsLocked"
+				},
+				{
+					"Eng": {
+						"cdata-section": "You have too many failed Face ID attempts. Please login with login name and password."
+					},
+					"Chi": {
+						"cdata-section": "閣下已多次使用無法辨識的Face ID登入。請使用登入名稱及密碼登入。"
+					},
+					"KEY": "FP_iOS_FaceIDLogin_ExceedMaxAttemptsLocked"
+				},
+				{
+					"Eng": {
+						"cdata-section": "Fingerprint Authentication has been disabled, please login with login name and password."
+					},
+					"Chi": {
+						"cdata-section": "指紋驗證功能已被鎖定，請使用登入名稱及密碼登入。"
+					},
+					"KEY": "FP_AOS_FingerprintAuthDisabled_90015_90025"
+				},
+				{
+					"Eng": {
+						"cdata-section": "Fingerprint Authentication has been disabled, please re-authenticate with password."
+					},
+					"Chi": {
+						"cdata-section": "指紋驗證功能已被鎖定，請使用密碼重新驗證。"
+					},
+					"KEY": "FP_AOS_FingerprintReAuth_90015_90025"
+				},
+				{
+					"Eng": {
+						"cdata-section": "You have too many failed fingerprint attempts. Please login with login name and password."
+					},
+					"Chi": {
+						"cdata-section": "閣下已多次使用無法辨識的指紋登入。請使用登入名稱及密碼登入。"
+					},
+					"KEY": "FP_AOS_FingerprintLogin_AttemptsFailedReminder"
+				},
+				{
+					"Eng": {
+						"cdata-section": "You have too many failed fingerprint attempts. Please login with login name and password."
+					},
+					"Chi": {
+						"cdata-section": "閣下已多次使用無法辨識的指紋登入。請使用登入名稱及密碼登入。"
+					},
+					"KEY": "FP_iOS_FingerprintLogin_AttemptsFailedReminder"
+				},
+				{
+					"Eng": {
+						"cdata-section": "You have too many failed fingerprint attempts, the operation has been terminated."
+					},
+					"Chi": {
+						"cdata-section": "閣下已多次使用無法辨識的指紋進行啓動程序，操作已被終止。"
+					},
+					"KEY": "FP_iOS_FingerprintVerify_ExceedMaxAttemptsTerminated"
+				},
+				{
+					"Eng": {
+						"cdata-section": "You have too many failed fingerprint attempts, the operation has been terminated."
+					},
+					"Chi": {
+						"cdata-section": "閣下已多次使用無法辨識的指紋進行啓動程序，操作已被終止。"
+					},
+					"KEY": "FP_AOS_FingerprintVerify_ExceedMaxAttemptsTerminated"
+				},
+				{
+					"Eng": {
+						"cdata-section": "Fingerprint Authentication has been disabled on this device due to system incompatibility."
+					},
+					"Chi": {
+						"cdata-section": "此流動裝置的操作系統出現兼容性問題，閣下將不能使用指紋認證。"
+					},
+					"KEY": "FP_DeviceJailbrokenOrRooted_FingerprintAuthDisabled"
+				},
+				{
+					"Eng": {
+						"cdata-section": "Face ID Authentication has been disabled on this device due to system incompatibility."
+					},
+					"Chi": {
+						"cdata-section": "此流動裝置的操作系統出現兼容性問題，閣下將不能使用Face ID認證。"
+					},
+					"KEY": "FP_DeviceJailbrokenOrRooted_FaceIDAuthDisabled"
+				},
+				{
+					"Eng": {
+						"cdata-section": "Fingerprint Authentication has been disabled due to change of your login information. Please activate your Fingerprint Authentication again."
+					},
+					"Chi": {
+						"cdata-section": "閣下的登入資料已作更新。請重新啟動指紋認證。"
+					},
+					"KEY": "FP_FingerprintAuthActivateAgain_LoginInfoChanged"
+				},
+				{
+					"Eng": {
+						"cdata-section": "Face ID Authentication has been disabled due to change of your login information. Please activate your Face ID Authentication again."
+					},
+					"Chi": {
+						"cdata-section": "閣下的登入資料已作更新。請重新啟動Face ID認證。"
+					},
+					"KEY": "FP_FaceIDAuthActivateAgain_LoginInfoChanged"
+				},
+				{
+					"Eng": {
+						"cdata-section": "Your Fingerprint Authentication for HKJC on this device has expired. Please activate your Fingerprint Authentication again."
+					},
+					"Chi": {
+						"cdata-section": "閣下在此流動裝置的HKJC指紋認證已逾期。請重新啟動指紋認證服務。"
+					},
+					"KEY": "FP_FingerprintAuthActivateAgain_AuthExpired"
+				},
+				{
+					"Eng": {
+						"cdata-section": "Your Face ID Authentication for HKJC on this device has expired. Please activate your Face ID Authentication again. "
+					},
+					"Chi": {
+						"cdata-section": "閣下在此流動裝置的HKJC Face ID認證已逾期。請重新啟動Face ID認證服務。"
+					},
+					"KEY": "FP_FaceIDAuthActivateAgain_AuthExpired"
+				},
+				{
+					"Eng": {
+						"cdata-section": "Fingerprint Authentication has been disabled due to changes in biometric data on your device. Please activate your Fingerprint Authentication again."
+					},
+					"Chi": {
+						"cdata-section": "此流動裝置儲存的生物認證紀錄已作更新。請重新啟動指紋認證。"
+					},
+					"KEY": "FP_FingerprintAuthActivateAgain_BiometricDataChanged"
+				},
+				{
+					"Eng": {
+						"cdata-section": "Face ID Authentication has been disabled due to changes in biometric data on your device. Please activate your Face ID Authentication again."
+					},
+					"Chi": {
+						"cdata-section": "此流動裝置儲存的生物認證紀錄已作更新。請重新啟動Face ID認證。"
+					},
+					"KEY": "FP_FaceIDAuthActivateAgain_BiometricDataChanged"
+				},
+				{
+					"Eng": {
+						"cdata-section": "Failed to load QR code, please try again later."
+					},
+					"Chi": {
+						"cdata-section": "無法存取二維碼，請稍後再試。"
+					},
+					"KEY": "eWallet_QRCodeFailed"
+				},
+				{
+					"Eng": {
+						"cdata-section": "QR Code has expired"
+					},
+					"Chi": {
+						"cdata-section": "二維碼已過期"
+					},
+					"KEY": "eWallet_QRCodeExpired"
+				},
+				{
+					"Eng": {
+						"cdata-section": "Time Out"
+					},
+					"Chi": {
+						"cdata-section": "操作逾時"
+					},
+					"KEY": "eWallet_TransactionTimeOut"
+				},
+				{
+					"Eng": {
+						"cdata-section": "Transaction confirmation has not been received."
+					},
+					"Chi": {
+						"cdata-section": "尚未收到交易確認。"
+					},
+					"KEY": "eWallet_TransactionNotReceived"
+				},
+				{
+					"Eng": {
+						"cdata-section": "You may retrieve the transaction details from account records. "
+					},
+					"Chi": {
+						"cdata-section": "閣下可於戶口紀錄查詢交易詳情。"
+					},
+					"KEY": "eWallet_TransactionDetailsRetrieve"
+				},
+				{
+					"Eng": {
+						"cdata-section": "You have too many failed fingerprint attempts. Please re-authenticate with password."
+					},
+					"Chi": {
+						"cdata-section": "閣下已多次使用無法識別的指紋登入。請使用密碼重新認證。"
+					},
+					"KEY": "eWallet_AOS_WithdrawalReAuth_FingerprintAttemptsFailed"
+				},
+				{
+					"Eng": {
+						"cdata-section": "You have too many failed fingerprint attempts. Please re-authenticate with password."
+					},
+					"Chi": {
+						"cdata-section": "閣下已多次使用無法識別的指紋登入。請使用密碼重新認證。"
+					},
+					"KEY": "eWallet_iOS_WithdrawalReAuth_FingerprintAttemptsFailed"
+				},
+				{
+					"Eng": {
+						"cdata-section": "You have too many failed Face ID attempts. Please re-authenticate with password."
+					},
+					"Chi": {
+						"cdata-section": "閣下已多次使用無法識別的Face ID登入。請使用密碼重新認證。"
+					},
+					"KEY": "eWallet_iOS_WithdrawalReAuth_FaceIDAttemptsFailed"
+				},
+				{
+					"Eng": {
+						"cdata-section": "Incorrect login Information. Please re-enter. Not yet registered, please click \"Register Now\". Forgot Password, click \"Cannot Login\" to reset."
+					},
+					"Chi": {
+						"cdata-section": "登入資料不正確，請重新儲入。未註冊登入名稱，請按\"新用戶登記\"。忘記密碼，請按\"無法登入\"重設。"
+					},
+					"KEY": "Account_DeAssociate_Error409"
+				},
+				{
+					"Eng": {
+						"cdata-section": "Transaction status unknown, you may refer to Account Records to confirm whether the transaction has been accepted."
+					},
+					"Chi": {
+						"cdata-section": "交易狀況未明，請於戶口紀錄確認交易是否已被接納。"
+					},
+					"KEY": "eWallet_TransactionUnknown"
+				},
+				{
+					"Eng": {
+						"cdata-section": "Upgrade To Full Betting Account"
+					},
+					"Chi": {
+						"cdata-section": "升級至全面投注戶口"
+					},
+					"KEY": "eWallet_AccountUpgrade_Title"
+				},
+				{
+					"Eng": {
+						"cdata-section": "Later"
+					},
+					"Chi": {
+						"cdata-section": "稍後"
+					},
+					"KEY": "eWallet_AccountUpgrade_LaterBtn"
+				},
+				{
+					"Eng": {
+						"cdata-section": "Upgrade Now"
+					},
+					"Chi": {
+						"cdata-section": "立即升級"
+					},
+					"KEY": "eWallet_AccountUpgrade_UpgradeBtn"
+				},
+				{
+					"Eng": {
+						"cdata-section": "Your account can currently access HKJC eWallet function only, you can upgrade to Full Betting Account to place bet online. If you choose to upgrade now, you will be logout from betting app."
+					},
+					"Chi": {
+						"cdata-section": "閣下之戶口現在只能使用香港賽馬會電子錢包功能，如需使用網上投注服務，請先完成升級程序。如閣下選擇立即升級，系統將自動登出。"
+					},
+					"KEY": "eWallet_AccountUpgrade"
+				},
+				{
+					"Eng": {
+						"cdata-section": "If the mobile number is incorrect, please update it at Off-course Betting Branch or Racecourse."
+					},
+					"Chi": {
+						"cdata-section": "如手提電話號碼不正確，請於場外投注處或馬場進行更新。"
+					},
+					"KEY": "eWallet_ReAuthEWalletAccounts"
+				},
+				{
+					"Eng": {
+						"cdata-section": "If the mobile number is incorrect, please update it at HKJC Customer eCentre."
+					},
+					"Chi": {
+						"cdata-section": "如手提電話號碼不正確，請登入HKJC網上客戶中心進行更新。"
+					},
+					"KEY": "eWallet_ReAuthFullBettingAccounts"
+				},
+				{
+					"Eng": {
+						"cdata-section": "Activation failed. We are unable to deliver the verification code to you as your registered mobile number is invalid."
+					},
+					"Chi": {
+						"cdata-section": "指紋認證啓動失敗。閣下登記的手提電話號碼不正確，驗證碼無法傳送。"
+					},
+					"KEY": "FP_ActivateFingerprint_OTPSendFailed"
+				},
+				{
+					"Eng": {
+						"cdata-section": "Activation failed. We are unable to deliver the verification code to you as your registered mobile number is invalid."
+					},
+					"Chi": {
+						"cdata-section": "Face ID 認證啓動失敗。閣下登記的手提電話號碼不正確，驗證碼無法傳送。"
+					},
+					"KEY": "FP_ActivateFaceID_OTPSendFailed"
+				},
+				{
+					"Eng": {
+						"cdata-section": "Please visit Off-course Betting Branch or Racecourse to update your mobile number."
+					},
+					"Chi": {
+						"cdata-section": "請於場外投注處或馬場更新手提電話號碼。"
+					},
+					"KEY": "FP_OTPSendFailedTips_eWalletAccount"
+				},
+				{
+					"Eng": {
+						"cdata-section": "Please login <a href=\"#\">HKJC Customer eCentre</a> to update your mobile number."
+					},
+					"Chi": {
+						"cdata-section": "請登入<a href=\"#\">HKJC 網上客戶中心</a>更新手提電話號碼。"
+					},
+					"KEY": "FP_OTPSendFailedTips_FullBettingAccount"
+				},
+				{
+					"Eng": {
+						"cdata-section": "Cash withdrawal failed. We are unable to deliver the verification code to you as your registered mobile number is invalid."
+					},
+					"Chi": {
+						"cdata-section": "現金提款失敗。閣下登記的手提電話號碼不正確，驗證碼無法傳送。"
+					},
+					"KEY": "eWallet_CashWithdrawal_OTPSendFailed_eWalletAccount"
+				},
+				{
+					"Eng": {
+						"cdata-section": "Please visit Off-course Betting Branch or Racecourse to update your mobile number."
+					},
+					"Chi": {
+						"cdata-section": "請於場外投注處或馬場更新手提電話號碼。"
+					},
+					"KEY": "eWallet_CashWithdrawal_OTPSendFailedTips_eWalletAccount"
+				},
+				{
+					"Eng": {
+						"cdata-section": "Cash withdrawal failed. We are unable to deliver the verification code to you as your registered mobile number is invalid."
+					},
+					"Chi": {
+						"cdata-section": "現金提款失敗。閣下登記的手提電話號碼不正確，驗證碼無法傳送。"
+					},
+					"KEY": "eWallet_CashWithdrawal_OTPSendFailed_FullBettingAccount"
+				},
+				{
+					"Eng": {
+						"cdata-section": "Please login <a href=\"#\">HKJC Customer eCentre</a> to update your mobile number."
+					},
+					"Chi": {
+						"cdata-section": "請登入<a href=\"#\">HKJC 網上客戶中心</a>更新手提電話號碼。"
+					},
+					"KEY": "eWallet_CashWithdrawal_OTPSendFailedTips_FullBettingAccount"
+				},
+				{
+					"Eng": {
+						"cdata-section": "Currently you do not have any Nominated Bank Account, please bring the ATM card that has your name printed on it and visit Off-course Betting Branch or Racecourse for registration. Then, you can link up your bank account with Electronic Funds Transfer service under \"Linking Bank Account\" section. <a href=\"#\">Please click here for FPS supported bank list.</a>"
+					},
+					"Chi": {
+						"cdata-section": "閣下並沒有登記任何「指定轉賬銀行戶口」。請帶同印有閣下姓名的提款卡於場外投注處或馬場登記。完成登記後，閣下可於「綁定銀行戶口」頁面綁定指定銀行戶口作香港賽馬會電子轉賬用途。<a href=\"#\">請按此查詢支援轉數快的銀行。</a>"
+					},
+					"KEY": "FPS_LinkBankAccount_WithoutBankAccount"
+				},
+				{
+					"Eng": {
+						"cdata-section": "Your bank does not support Faster Payment System (FPS). If you would like to use Electronic Funds Transfer service, please bring the ATM card that has your name printed on it and change your Nominated Bank Account at Off-course Betting Branch or Racecourse. <a href=\"#\">Please click here for FPS supported bank list.</a>"
+					},
+					"Chi": {
+						"cdata-section": "以上銀行並不支援轉數快。如需使用香港賽馬會電子轉賬服務，請帶同印有閣下姓名的提款卡於場外投注處或馬場辦理更新手續。<a href=\"#\">請按此查詢支援轉數快的銀行。</a>"
+					},
+					"KEY": "FPS_LinkBankAccount_AccountNotSupportFPS"
+				},
+				{
+					"Eng": {
+						"cdata-section": "You can register one more bank account for online deposit. Please visit Off-course Betting Branch or Racecourse with a valid bank card or original bank document that shows your full name and personal bank account number for registration."
+					},
+					"Chi": {
+						"cdata-section": "閣下可再登記一個「指定轉賬銀行戶口」用於轉賬存款服務。請帶同印有閣下姓名及個人銀行戶口號碼並有效的銀行卡或銀行正本文件到場外投注處或馬場登記。"
+					},
+					"KEY": "FPS_LinkBankAccount_WithoutBankAccount2"
+				},
+				{
+					"Eng": {
+						"cdata-section": "You can register one more bank account for online deposit and online withdrawal. Please visit Off-course Betting Branch or Racecourse with a valid bank card or original bank document that shows your full name and personal bank account number for registration."
+					},
+					"Chi": {
+						"cdata-section": "閣下可再登記一個「指定轉賬銀行戶口」用於轉賬存款及提款服務。請帶同印有閣下姓名及個人銀行戶口號碼並有效的銀行卡或銀行正本文件到場外投注處或馬場登記。"
+					},
+					"KEY": "FPS_LinkBankAccount_WithoutBankAccount1"
+				},
+				{
+					"Eng": {
+						"cdata-section": "If the bank account number shown is not updated, please visit Off-course Betting Branch or Racecourse with the valid bank card or original bank document that shows your full name and personal bank account number."
+					},
+					"Chi": {
+						"cdata-section": "如需更新銀行戶口資料，請帶同印有閣下姓名及個人銀行戶口號碼並有效的銀行卡或銀行正本文件到場外投注處或馬場辦理手續。"
+					},
+					"KEY": "FPS_LinkBankAccount_AccountNotUpdated"
+				},
+				{
+					"Eng": {
+						"cdata-section": "To link your Nominated Bank Account for HKJC FPS Instant EFT, please review the bank account information and accept the terms and conditions."
+					},
+					"Chi": {
+						"cdata-section": "如需綁定「指定轉賬銀行戶口」作香港賽馬會轉數快即時轉賬用途，請核對以下銀行戶口資料及接受有關條款及細則。"
+					},
+					"KEY": "FPS_LinkBankAccount_ApplicationDetails"
+				},
+				{
+					"Eng": {
+						"cdata-section": "Your bank account has been linked up with HKJC FPS Instant EFT, you can now enjoy PIN free online deposit and withdrawal. Your bank may send two notifications about “electronic Direct Debit Authorisation” application result to you. They are corresponding to two applications to our selected FPS partners."
+					},
+					"Chi": {
+						"cdata-section": "以下的「指定轉賬銀行戶口」已成功綁定香港賽馬會轉數快即時轉賬，閣下可即時享用網上存款及提款服務。閣下的銀行有機會就「電子直接付款授權」申請結果發送兩次通知，分別對應本會兩間「轉數快」的合作夥伴。"
+					},
+					"KEY": "FPS_LinkBankAccount_LinkNBA1InstantSuccess"
+				},
+				{
+					"Eng": {
+						"cdata-section": "Your bank account has been linked up with HKJC FPS Instant EFT, you can now enjoy PIN free online deposit. Your bank may send two notifications about “electronic Direct Debit Authorisation” application result to you. They are corresponding to two applications to our selected FPS partners."
+					},
+					"Chi": {
+						"cdata-section": "以下的「指定轉賬銀行戶口」已成功綁定香港賽馬會轉數快即時轉賬，閣下可即時享用網上存款服務。閣下的銀行有機會就「電子直接付款授權」申請結果發送兩次通知，分別對應本會兩間「轉數快」的合作夥伴。"
+					},
+					"KEY": "FPS_LinkBankAccount_LinkNBA2InstantSuccess"
+				},
+				{
+					"Eng": {
+						"cdata-section": "Please contact your bank or visit Off-course Betting Branch or Racecourse with the valid bank card or original bank document that shows your full name and personal bank account number for clarification."
+					},
+					"Chi": {
+						"cdata-section": "請聯絡有關銀行或帶同印有閣下姓名及個人銀行戶口號碼並有效的銀行卡或銀行正本文件到場外投注處或馬場查詢詳情。"
+					},
+					"KEY": "FPS_LinkBankAccount_InstantFailed"
+				},
+				{
+					"Eng": {
+						"cdata-section": "Your bank will notify you when the application is approved. It may take up to 5 working days from the application date. Please contact your bank for status enquiry. If you need to increase your daily deposit limit, please apply via your bank."
+					},
+					"Chi": {
+						"cdata-section": "從申請日計算，審批需時大概五個工作天。申請成功後，閣下會收到銀行的通知。如需增加每日存款限額或查詢審批進度，請與閣下之銀行聯絡。"
+					},
+					"KEY": "FPS_LinkBankAccount_PendingApproval"
+				},
+				{
+					"Eng": {
+						"cdata-section": "Your bank account has been linked up with HKJC FPS Instant EFT, you can now enjoy PIN free online deposit and withdrawal."
+					},
+					"Chi": {
+						"cdata-section": "以下的「指定轉賬銀行戶口」已成功綁定香港賽馬會轉數快即時轉賬，閣下可即時享用網上存款及提款服務。"
+					},
+					"KEY": "FPS_LinkBankAccount_ReviewStatusNBA1LinkSuccess"
+				},
+				{
+					"Eng": {
+						"cdata-section": "Your bank account has been linked up with HKJC FPS Instant EFT, you can now enjoy PIN free online deposit."
+					},
+					"Chi": {
+						"cdata-section": "以下的「指定轉賬銀行戶口」已成功綁定香港賽馬會轉數快即時轉賬，閣下可即時享用網上存款服務。"
+					},
+					"KEY": "FPS_LinkBankAccount_ReviewStatusNBA2LinkSuccess"
+				},
+				{
+					"Eng": {
+						"cdata-section": "Your bank will notify you when the application is approved. It may take up to 5 working days from the application date. Please contact your bank for status  enquiry. If you need to increase your daily deposit limit, please apply via your bank."
+					},
+					"Chi": {
+						"cdata-section": "從申請日計算，審批需時大概五個工作天。申請成功後，閣下會收到銀行的通知。如需增加每日存款限額或查詢審批進度，請與閣下的銀行聯絡。"
+					},
+					"KEY": "FPS_LinkBankAccount_ReviewStatusPendingApproval"
+				},
+				{
+					"Eng": {
+						"cdata-section": "Exceed Monthly Deposit Limit"
+					},
+					"Chi": {
+						"cdata-section": "超出每月存款限額"
+					},
+					"KEY": "FPS_OnlineDeposit_ExceedMonthlyLimit_Title"
+				},
+				{
+					"Eng": {
+						"cdata-section": "You have exceeded the monthly transaction number limit, ${:Limit} service charge will be imposed to the current transaction."
+					},
+					"Chi": {
+						"cdata-section": "轉賬次數已超出每月上限，是次轉賬將會收取${:Limit}元手續費。"
+					},
+					"KEY": "FPS_OnlineDeposit_ExceedMonthlyLimit"
+				},
+				{
+					"Eng": {
+						"cdata-section": "Exceed Daily Instant Withdrawal Limit"
+					},
+					"Chi": {
+						"cdata-section": "超出每日即時提款限額"
+					},
+					"KEY": "FPS_OnlineWithdrawal_ExceedDailyLimit_Title"
+				},
+				{
+					"Eng": {
+						"cdata-section": "The instant withdrawal amount has exceeded the daily limit.This transaction will be processed via Autopay and the amount will be credited to your bank account by next working day. Would you like to continue with Autopay?"
+					},
+					"Chi": {
+						"cdata-section": "由於即時提款金額已超出每日上限，此筆款項將改爲以自動轉賬方式存入閣下之銀行戶口，需時大約一個工作天。繼續並使用自動轉賬嗎？"
+					},
+					"KEY": "FPS_OnlineWithdrawal_ExceedDailyAmountLimit"
+				},
+				{
+					"Eng": {
+						"cdata-section": "The number of requests for instant withdrawal has exceeded the daily limit. This transaction will be processed via Autopay and the amount will be credited to your bank account by next working day.Would you like to continue with Autopay?"
+					},
+					"Chi": {
+						"cdata-section": "由於即時提款次數已超出每日上限，此筆款項將改爲以自動轉賬方式存入閣下之銀行戶口，需時大約一個工作天。繼續並使用自動轉賬嗎？"
+					},
+					"KEY": "FPS_OnlineWithdrawal_ExceedDailyCountLimit"
+				},
+				{
+					"Eng": {
+						"cdata-section": "You need to link up your Nominated Bank Account with HKJC FPS Instant EFT under \"Linking Bank Account\" section first."
+					},
+					"Chi": {
+						"cdata-section": "如須使用香港賽馬會轉數快即時轉賬，請先進行銀行戶口綁定。"
+					},
+					"KEY": "FPS_OnlineDeposit_NotLinkAccountToFPSOrEPSCO"
+				},
+				{
+					"Eng": {
+						"cdata-section": "You have not applied for HKJC FPS Instant EFT, please link up your Nominated Bank Account with HKJC FPS Instant EFT. Or the service is now under maintenance, please retry later."
+					},
+					"Chi": {
+						"cdata-section": "閣下尚未申請香港賽馬會轉數快即時轉賬，請先綁定銀行戶口。或系統現正進行維護，請稍後再試。"
+					},
+					"KEY": "FPS_OnlineDeposit_NotLinkAccountToFPSOrEPSCO_FPSDisabled"
+				},
+				{
+					"Eng": {
+						"cdata-section": "Currently you do not have any Nominated Bank Account, please visit Off-course Betting Branch or Racecourse with a valid bank card or original bank document that shows your full name and personal bank account number for registration."
+					},
+					"Chi": {
+						"cdata-section": "閣下並沒有登記任何「指定轉賬銀行戶口」。請帶同印有閣下姓名及個人銀行戶口號碼並有效的銀行卡或銀行正本文件到場外投注處或馬場登記。"
+					},
+					"KEY": "FPS_OnlineDeposit_NoAccountOrNoEFT"
+				},
+				{
+					"Eng": {
+						"cdata-section": "Then, you can link up your bank account with Electronic Funds Transfer service under \"Linking Bank Account\" section. <a href=\"#\">Please click here for FPS supported bank list.</a>"
+					},
+					"Chi": {
+						"cdata-section": "完成登記後，閣下可於「綁定銀行戶口」頁面綁定指定銀行戶口作香港賽馬會電子轉賬用途。 <a href=\"#\">請按此查詢支援轉數快的銀行。</a>"
+					},
+					"KEY": "FPS_OnlineDeposit_NoAccountOrNoEFT_FPSEnabled"
+				},
+				{
+					"Eng": {
+						"cdata-section": "Currently you do not have any Nominated Bank Account, please visit Off-course Betting Branch or Racecourse with a valid bank card or original bank document that shows your full name and personal bank account number for registration."
+					},
+					"Chi": {
+						"cdata-section": "閣下並沒有登記任何「指定轉賬銀行戶口」。請帶同印有閣下姓名及個人銀行戶口號碼並有效的銀行卡或銀行正本文件到場外投注處或馬場登記。"
+					},
+					"KEY": "FPS_OnlineWithdrawal_NotRegisterNBA1"
+				},
+				{
+					"Eng": {
+						"cdata-section": "Then, you can link up your bank account for Electronic Funds Transfer service under \"Linking Bank Account\" section. <a href=\"#\">Please click here for FPS supported bank list.</a>"
+					},
+					"Chi": {
+						"cdata-section": "完成登記後，閣下可於「綁定銀行戶口」的頁面中綁定銀行戶口作香港賽馬會電子轉賬用途。<a href=\"#\">請按此查詢支援轉數快的銀行。</a>"
+					},
+					"KEY": "FPS_OnlineWithdrawal_NotRegisterNBA1_FPSEnabled"
+				},
+				{
+					"Eng": {
+						"cdata-section": "Your bank is processing the deposit instruction, please check your account records later."
+					},
+					"Chi": {
+						"cdata-section": "閣下之銀行正在處理你的存款指示，請於稍後時間檢查閣下的戶口紀錄。"
+					},
+					"KEY": "FPS_OnlineDeposit_BankTimeOut"
+				},
+				{
+					"Eng": {
+						"cdata-section": "To confirm whether the transaction is accepted, please check your account records later."
+					},
+					"Chi": {
+						"cdata-section": "如需確認轉賬是否已被接納，請於稍後檢查閣下的戶口紀錄。"
+					},
+					"KEY": "FPS_OnlineDeposit_FrontendTimeOut"
+				},
+				{
+					"Eng": {
+						"cdata-section": "Your bank is processing the withdrawal instruction, please check your account records later."
+					},
+					"Chi": {
+						"cdata-section": "閣下之銀行正在處理你的提款指示，請於稍後時間檢查閣下的戶口紀錄。"
+					},
+					"KEY": "FPS_OnlineWithdrawal_BankTimeOut"
+				},
+				{
+					"Eng": {
+						"cdata-section": "To confirm whether the transaction is accepted, please check your account records later."
+					},
+					"Chi": {
+						"cdata-section": "如需確認轉賬是否已被接納，請於稍後檢查閣下的戶口紀錄。"
+					},
+					"KEY": "FPS_OnlineWithdrawal_FrontendTimeOut"
+				},
+				{
+					"Eng": {
+						"cdata-section": "Minimum ${:Minimum}. Please make sure you have sufficient funds in your bank account before making the transfer, or your bank may charge a service fee for a denial of transfer according to the bank's terms and conditions (e.g. HSBC or Hang Seng Bank). The HKJC will not charge any fee."
+					},
+					"Chi": {
+						"cdata-section": "最低金額${:Minimum}。請確保你的銀行賬戶於轉賬前有足夠款項。若銀行拒絕該轉賬，閣下之銀行或會根據其條款收取服務費用(如匯豐或恒生)，馬會並不會收取仼何費用。"
+					},
+					"KEY": "FPS_OnlineDeposit_DepositAmountMinimum"
+				},
+				{
+					"Eng": {
+						"cdata-section": "Linking bank account failed. We are unable to deliver the verification code to you as your registered mobile number is invalid."
+					},
+					"Chi": {
+						"cdata-section": "綁定銀行戶口失敗。閣下登記的手提電話號碼不正確，驗證碼無法傳送。"
+					},
+					"KEY": "eWallet_LinkBankAccount_OTPSendFailed_eWalletAccount"
+				},
+				{
+					"Eng": {
+						"cdata-section": "Please visit Off-course Betting Branch or Racecourse to update your mobile number."
+					},
+					"Chi": {
+						"cdata-section": "請於場外投注處或馬場更新手提電話號碼。"
+					},
+					"KEY": "eWallet_LinkBankAccount_OTPSendFailedTips_eWalletAccount"
+				},
+				{
+					"Eng": {
+						"cdata-section": "Linking bank account failed. We are unable to deliver the verification code to you as your registered mobile number is invalid."
+					},
+					"Chi": {
+						"cdata-section": "綁定銀行戶口失敗。閣下登記的手提電話號碼不正確，驗證碼無法傳送。"
+					},
+					"KEY": "eWallet_LinkBankAccount_OTPSendFailed_FullBettingAccount"
+				},
+				{
+					"Eng": {
+						"cdata-section": "Please login <a href=\"#\">HKJC Customer eCentre</a> to update your mobile number."
+					},
+					"Chi": {
+						"cdata-section": "請登入<a href=\"#\">HKJC 網上客戶中心</a>更新手提電話號碼。"
+					},
+					"KEY": "eWallet_LinkBankAccount_OTPSendFailedTips_FullBettingAccount"
+				},
+				{
+					"Eng": {
+						"cdata-section": "Due to Bank System maintenance, HKJC EFT Service is now suspended. The transaction will be processed via Autopay and the amount would be credited to your bank account by next working day. Would you like to continue with Autopay?"
+					},
+					"Chi": {
+						"cdata-section": "由於銀行系統維護，香港賽馬會電子轉賬服務現正暫停服務。該筆款項將改爲以自動轉賬方式存入閣下之銀行戶口，需時大約一個工作天。繼續使用自動轉賬嗎？"
+					},
+					"KEY": "FPS_OnlineWithdrawal_BankSystemMaintenance"
+				},
+				{
+					"Eng": {
+						"cdata-section": "Due to Bank System maintenance, HKJC EFT Service is now suspended. Please try again later."
+					},
+					"Chi": {
+						"cdata-section": "由於銀行系統維護，香港賽馬會電子轉賬服務現正暫停服務，請稍後再試。"
+					},
+					"KEY": "FPS_OnlineDeposit_BankSystemMaintenance"
+				},
+				{
+					"Eng": {
+						"cdata-section": "Incorrect HKJC EPS EFT PIN"
+					},
+					"Chi": {
+						"cdata-section": "香港賽馬會易辦事轉賬密碼不正確"
+					},
+					"KEY": "FPS_OnlineWithdrawal_IncorrectEftServicePin_Title"
+				},
+				{
+					"Eng": {
+						"cdata-section": "Instant withdrawal cannot be completed due to incorrect HKJC EPS EFT PIN (8-digit). \n\nOr you can apply the HKJC FPS Instant EFT. After link up your Nominated Bank Account via online betting channels, password will no longer required for instant funds transfer. \n\nYou may choose to continue this transaction via Bank Non-Instant Withdrawal. Limited to once per day and the amount will be credited to your bank account by the next working day. \n\nWould you like to continue with Bank Non-Instant Withdrawal?"
+					},
+					"Chi": {
+						"cdata-section": "由於閣下之香港賽馬會易辦事轉賬密碼(8位數字)不正確，即時提款未能完成。\n\n閣下可選擇申請香港賽馬會轉數快即時轉賬，您只需於投注應用程式綁定銀行戶口，即可使用此即時轉賬服務而不需要密碼。\n\n本次提款可以銀行非即時提款方式存入閣下之銀行戶口，每日只限一次，需時大約一個工作天。\n\n繼續並使用銀行非即時提款嗎？"
+					},
+					"KEY": "FPS_OnlineWithdrawal_IncorrectEftServicePin"
+				},
+				{
+					"Eng": {
+						"cdata-section": "Your HKJC EPS Instant EFT Has Been Suspended"
+					},
+					"Chi": {
+						"cdata-section": "閣下之香港賽馬會易辦事即時轉賬已被停用"
+					},
+					"KEY": "FPS_OnlineWithdrawal_EftServiceSuspended_Title"
+				},
+				{
+					"Eng": {
+						"cdata-section": "Your HKJC EPS Instant EFT has been suspended. Please visit Off-course Betting Branch or Racecourse to re-register the service. \n\nOr you can apply the HKJC FPS Instant EFT. After link up your Nominated Bank Account via online betting channels, password will no longer required for instant funds transfer. \n\nYou may choose to continue this withdrawal transaction via Bank Non-Instant Withdrawal. Limited to once per day and the amount will be credited to your bank account by the next working day. \n\nWould you like to continue with Bank Non-Instant Withdrawal?"
+					},
+					"Chi": {
+						"cdata-section": "由於閣下之香港賽馬會易辦事即時轉賬已被停用。請到本會分行或馬場重新登記服務。\n\n閣下亦可申請香港賽馬會轉數快即時轉賬，您只需於投注應用程式綁定銀行戶口，便可使用此即時轉賬服務而不需要密碼。\n\n本次提款可以銀行非即時提款方式存入閣下之銀行戶口，每日只限一次，需時大約一個工作天。\n\n繼續並使用銀行非即時提款嗎？"
+					},
+					"KEY": "FPS_OnlineWithdrawal_EftServiceSuspended"
+				},
+				{
+					"Eng": {
+						"cdata-section": "Exceeded Daily Instant Withdrawal Limit"
+					},
+					"Chi": {
+						"cdata-section": "超出每日即時提款限額"
+					},
+					"KEY": "FPS_OnlineWithdrawal_ExceedDailyAmountLimit_Title"
+				},
+				{
+					"Eng": {
+						"cdata-section": "Exceeded Daily Instant Withdrawal Limit"
+					},
+					"Chi": {
+						"cdata-section": "超出每日即時提款次數"
+					},
+					"KEY": "FPS_OnlineWithdrawal_ExceedDailyCountLimit_Title"
+				},
+				{
+					"Eng": {
+						"cdata-section": "The instant withdrawal amount has exceeded the daily limit. \n\nThis transaction will be processed via Bank Non-Instant Withdrawal. Limited to once per day and the amount will be credited to your bank account by the next working day. \n\nWould you like to continue with Bank Non-Instant Withdrawal?"
+					},
+					"Chi": {
+						"cdata-section": "即時提款金額已超出每日上限，此筆款項將改爲以銀行非即時提款方式存入閣下之銀行戶口，每日只限一次，需時大約一個工作天。\n\n繼續並使用銀行非即時提款嗎？"
+					},
+					"KEY": "FPS_OnlineWithdrawal_ExceedDailyAmountLimit_WithFormat"
+				},
+				{
+					"Eng": {
+						"cdata-section": "The number of requests for instant withdrawal has exceeded the daily limit. \n\nThis transaction will be processed via Bank Non-Instant Withdrawal. Limited to once per day and the amount will be credited to your bank account by the next working day. \n\nWould you like to continue with Bank Non-Instant Withdrawal?"
+					},
+					"Chi": {
+						"cdata-section": "即時提款次數已超出每日上限，此筆款項將改爲以銀行非即時提款方式存入閣下之銀行戶口，每日只限一次，需時大約一個工作天。\n\n繼續並使用銀行非即時提款嗎？"
+					},
+					"KEY": "FPS_OnlineWithdrawal_ExceedDailyCountLimit_WithFormat"
+				},
+				{
+					"Eng": {
+						"cdata-section": "Currently you do not have any Nominated Bank Account, please visit Off-course Betting Branch or Racecourse with a valid bank card or original bank document that shows your full name and personal bank account number for registration.\n\n<a href=\"#\">Please click here for FPS supported bank list.</a>"
+					},
+					"Chi": {
+						"cdata-section": "閣下並沒有登記任何「指定轉賬銀行戶口」。請帶同印有閣下姓名及個人銀行戶口號碼並有效的銀行卡或銀行正本文件到場外投注處或馬場登記。\n\n<a href=\"#\">請按此查詢支援轉數快的銀行。</a>"
+					},
+					"KEY": "FPS_LinkBankAccount_WithoutBankAccount_WithFormat"
+				},
+				{
+					"Eng": {
+						"cdata-section": "Please note: Face ID authentication can only link up with one betting account or eWallet on each mobile device"
+					},
+					"Chi": {
+						"cdata-section": "注意：Face ID 認證功能只可於每部手機或平板電腦上綁定一個投注戶口或電子錢包"
+					},
+					"KEY": "FP_FaceIDAuthNote_eWalletOn"
+				},
+				{
+					"Eng": {
+						"cdata-section": "Please note: Face ID authentication can only link up with one betting account on each mobile device"
+					},
+					"Chi": {
+						"cdata-section": "注意：Face ID 認證功能只可於每部手機或平板電腦上綁定一個投注戶口"
+					},
+					"KEY": "FP_FaceIDAuthNote_eWalletOff"
+				},
+				{
+					"Eng": {
+						"cdata-section": "Please note: Fingerprint authentication can only link up with one betting account or eWallet on each mobile device"
+					},
+					"Chi": {
+						"cdata-section": "注意：指紋認證功能只可於每部手機或平板電腦上綁定一個投注戶口或電子錢包"
+					},
+					"KEY": "FP_FingerprintAuthNote_eWalletOn"
+				},
+				{
+					"Eng": {
+						"cdata-section": "Please note: Fingerprint authentication can only link up with one betting account on each mobile device"
+					},
+					"Chi": {
+						"cdata-section": "注意：指紋認證功能只可於每部手機或平板電腦上綁定一個投注戶口"
+					},
+					"KEY": "FP_FingerprintAuthNote_eWalletOff"
+				},
+				{
+					"Eng": {
+						"cdata-section": "Then, you can link up your bank account with HKJC FPS Instant EFT under \"Linking Bank Account\" section.\n\n<a href=\"#\">Please click here for FPS supported bank list.</a>"
+					},
+					"Chi": {
+						"cdata-section": "完成登記後，閣下可於「綁定銀行戶口」頁面綁定指定銀行戶口作香港賽馬會轉數快即時轉賬用途。\n\n<a href=\"#\">請按此查詢支援轉數快的銀行。</a>"
+					},
+					"KEY": "FPS_OnlineDeposit_NoAccountOrNoEFT_FPSEnabled_WithFormat"
+				},
+				{
+					"Eng": {
+						"cdata-section": "Then, you can link up your bank account with HKJC FPS Instant EFT under \"Linking Bank Account\" section.\n\n<a href=\"#\">Please click here for FPS supported bank list.</a>"
+					},
+					"Chi": {
+						"cdata-section": "完成登記後，閣下可於「綁定銀行戶口」頁面綁定銀行戶口作香港賽馬會轉數快即時轉賬用途。\n\n<a href=\"#\">請按此查詢支援轉數快的銀行。</a>"
+					},
+					"KEY": "FPS_OnlineWithdrawal_NotRegisterNBA1_FPSEnabled_WithFormat"
+				},
+				{
+					"Eng": {
+						"cdata-section": "Your bank does not support HKJC FPS Instant EFT. If you would like to change your Nominated Bank Account, please visit Off-course Betting Branch or Racecourse with a valid bank card or original bank document that shows your full name and personal bank account number for registration.\n\n<a href=\"#\">Please click here for FPS supported bank list.</a>"
+					},
+					"Chi": {
+						"cdata-section": "以上銀行並不支援香港賽馬會轉數快即時轉賬。如需更改「指定轉賬銀行戶口」，請帶同印有閣下姓名及個人銀行戶口號碼並有效的銀行卡或銀行正本文件到場外投注處或馬場辦理更新手續。\n\n<a href=\"#\">請按此查詢支援轉數快的銀行。</a>"
+					},
+					"KEY": "FPS_LinkBankAccount_AccountNotSupportFPS_WithFormat"
+				},
+				{
+					"Eng": {
+						"cdata-section": "Your bank may send two notifications about “electronic Direct Debit Authorisation” application result to you. They are corresponding to two applications to our selected FPS partners. It may take up to 5 working days from the application date for bank to approve. To check application status or to increase your daily deposit limit, please contact your bank."
+					},
+					"Chi": {
+						"cdata-section": "閣下的銀行可就「電子直接付款授權」申請結果通知閣下。屆時，閣下有機會收到兩次通知，分別對應本會兩間「轉數快」的合作夥伴。從申請日計算，銀行審批或需時大概五個工作天。如需查詢審批進度或提升每日存款上限，請向閣下之銀行聯絡。"
+					},
+					"KEY": "FPS_LinkBankAccount_PendingApproval_WithFormat"
+				},
+				{
+					"Eng": {
+						"cdata-section": "Your bank will notify you when the application is approved. It may take up to 5 working days from the application date. Please contact your bank for status  enquiry.\n\nIf you need to increase your daily deposit limit, please apply via your bank."
+					},
+					"Chi": {
+						"cdata-section": "從申請日計算，審批需時大概五個工作天。申請成功後，閣下會收到銀行的通知。\n\n如需增加每日存款限額或查詢審批進度，請與閣下的銀行聯絡。"
+					},
+					"KEY": "FPS_LinkBankAccount_ReviewStatusPendingApproval_WithFormat"
+				},
+				{
+					"Eng": {
+						"cdata-section": "You have not applied for HKJC FPS Instant EFT, please link up your Nominated Bank Account with HKJC FPS Instant EFT. Or the service is now under maintenance, please retry later."
+					},
+					"Chi": {
+						"cdata-section": "閣下尚未申請香港賽馬會轉數快即時轉賬，請先綁定銀行戶口。或系統現正進行維護，請稍後再試。"
+					},
+					"KEY": "EFT_OnlineDeposit_NotLinkAccountToFPSOrEPS_LinkingBankAccountDisabled"
+				},
+				{
+					"Eng": {
+						"cdata-section": "HKJC EPS Instant Deposit requires minimum ${:EPSCO_lower_limit}."
+					},
+					"Chi": {
+						"cdata-section": "香港賽馬會易辦事即時存款的最低金額為${:EPSCO_lower_limit}。"
+					},
+					"KEY": "EFT_OnlineDeposit_DepositAmount_EPSCOLowerToUpperLimit"
+				},
+				{
+					"Eng": {
+						"cdata-section": "HKJC FPS Instant Deposit requires minimum ${:FPS_lower_limit}. Please make sure you have sufficient funds in your bank account before making the transfer, or your bank may charge a service fee for a denial of transfer according to the bank's terms and conditions (e.g. HSBC or Hang Seng Bank). Please contact your bank to apply the fee waiver, if such fee has been charged. The HKJC will not charge any fee."
+					},
+					"Chi": {
+						"cdata-section": "香港賽馬會轉數快即時存款的最低金額為${:FPS_lower_limit}。請確保你的銀行賬戶於轉賬前有足夠款項。若銀行拒絕該轉賬，閣下之銀行或會根據其條款收取服務費用(如匯豐或恒生)。如該服務費用已被收取，請即聯絡你的銀行商討退款安排。馬會並不會收取仼何費用。"
+					},
+					"KEY": "EFT_OnlineDeposit_DepositAmount_FPSLowerToUpperLimit"
+				},
+				{
+					"Eng": {
+						"cdata-section": "Online withdrawal allows up to ${:Autopay_upper_limit} once per day and the transaction will be processed within 1 working day."
+					},
+					"Chi": {
+						"cdata-section": "網上提款上限為${:Autopay_upper_limit}，每日只限一次，需時大約一個工作天。"
+					},
+					"KEY": "EFT_OnlineWithdrawal_AutopayLowerToUpperLimit"
+				},
+				{
+					"Eng": {
+						"cdata-section": "HKJC EPS Instant Withdrawal allows between ${:EPSCO_lower_limit} and ${:EPSCO_upper_limit}. Withdrawal amount other than this range will be processed via Bank Non-Instant Withdrawal within 1 working day and limited to ${:Autopay_upper_limit}."
+					},
+					"Chi": {
+						"cdata-section": "香港賽馬會易辦事即時提款的限額為${:EPSCO_lower_limit}至${:EPSCO_upper_limit}。其它金額將經由銀行非即時提款方式處理，需時大約一個工作天，上限為${:Autopay_upper_limit}。"
+					},
+					"KEY": "EFT_OnlineWithdrawal_EPSCOLowerToUpperLimit"
+				},
+				{
+					"Eng": {
+						"cdata-section": "HKJC FPS Instant Withdrawal allows between ${:FPS_lower_limit} and ${:FPS_upper_limit}. Once exceeded, transaction will be processed via Bank Non-Instant Withdrawal within 1 working day and limited to ${:Autopay_upper_limit}."
+					},
+					"Chi": {
+						"cdata-section": "香港賽馬會轉數快即時提款的限額為${:FPS_lower_limit}至${:FPS_upper_limit}。若超過上限，該筆款項將經由銀行非即時提款方式處理，需時大約一個工作天，上限為${:Autopay_upper_limit}。"
+					},
+					"KEY": "EFT_OnlineWithdrawal_FPSLowerToUpperLimit"
+				},
+				{
+					"Eng": {
+						"cdata-section": "Available once per day and will be processed within 1 working day."
+					},
+					"Chi": {
+						"cdata-section": "每日只限一次，需時大約一個工作天。"
+					},
+					"KEY": "EFT_Transaction_Method_AutopayWithdrawalTips"
+				},
+				{
+					"Eng": {
+						"cdata-section": "HKJC EPS Instant Deposit"
+					},
+					"Chi": {
+						"cdata-section": "香港賽馬會易辦事即時存款"
+					},
+					"KEY": "EFT_Transaction_Method_EPSInstantDeposit"
+				},
+				{
+					"Eng": {
+						"cdata-section": "HKJC FPS Instant Deposit"
+					},
+					"Chi": {
+						"cdata-section": "香港賽馬會轉數快即時存款"
+					},
+					"KEY": "EFT_Transaction_Method_FPSInstantDeposit"
+				},
+				{
+					"Eng": {
+						"cdata-section": "HKJC EPS Instant Withdrawal"
+					},
+					"Chi": {
+						"cdata-section": "香港賽馬會易辦事即時提款"
+					},
+					"KEY": "EFT_Transaction_Method_EPSInstantWithdrawal"
+				},
+				{
+					"Eng": {
+						"cdata-section": "HKJC FPS Instant Withdrawal"
+					},
+					"Chi": {
+						"cdata-section": "香港賽馬會轉數快即時提款"
+					},
+					"KEY": "EFT_Transaction_Method_FPSInstantWithdrawal"
+				},
+				{
+					"Eng": {
+						"cdata-section": "Bank Non-Instant Withdrawal"
+					},
+					"Chi": {
+						"cdata-section": "銀行非即時提款"
+					},
+					"KEY": "EFT_Transaction_Method_AutopayWithdrawal"
+				},
+				{
+					"Eng": {
+						"cdata-section": "Due to bank system maintenance, HKJC EPS Instant EFT is now suspended. Please try again later."
+					},
+					"Chi": {
+						"cdata-section": "由於銀行系統維護，香港賽馬會易辦事即時轉賬現正暫停服務，請稍後再試。"
+					},
+					"KEY": "EFT_OnlineDeposit_EPSInstantEFT_BankSystemMaintenance"
+				},
+				{
+					"Eng": {
+						"cdata-section": "Due to bank system maintenance, HKJC FPS Instant EFT is now suspended. Please try again later."
+					},
+					"Chi": {
+						"cdata-section": "由於銀行系統維護，香港賽馬會轉數快即時轉賬現正暫停服務，請稍後再試。"
+					},
+					"KEY": "EFT_OnlineDeposit_FPSInstantEFT_BankSystemMaintenance"
+				},
+				{
+					"Eng": {
+						"cdata-section": "Rejected reason: {:FPS_reject_reason}\n<a href=\"#\">Click here to register again</a>"
+					},
+					"Chi": {
+						"cdata-section": "拒絕理由：{:FPS_reject_reason}\n<a href=\"#\">按此重新綁定</a>"
+					},
+					"KEY": "FPS_LinkBankAccount_RejectedReason"
+				},
+				{
+					"Eng": {
+						"cdata-section": "The application is being processed by your bank. You may contact your bank to enquire the application status of \"Direct Debit Authorisation To HKJC\"."
+					},
+					"Chi": {
+						"cdata-section": "銀行正在處理閣下的申請。請聯絡銀行查詢有關「直接付款授權至香港賽馬會」的申請狀況。"
+					},
+					"KEY": "FPS_LinkBankAccount_PendingInstruction"
+				},
+				{
+					"Eng": {
+						"cdata-section": "Due to bank system maintenance, HKJC EPS Instant EFT is now suspended. The transaction will be processed via Bank Non-Instant Withdrawal and the amount would be credited to your bank account by next working day. Would you like to continue with Bank Non-Instant Withdrawal?"
+					},
+					"Chi": {
+						"cdata-section": "由於銀行系統維護，香港賽馬會易辦事即時轉賬現正暫停服務。該筆款項將改爲以銀行非即時提款方式存入閣下之銀行戶口，需時大約一個工作天。繼續使用銀行非即時提款嗎？"
+					},
+					"KEY": "EFT_OnlineWithdrawal_EPSInstantEFT_BankSystemMaintenance"
+				},
+				{
+					"Eng": {
+						"cdata-section": "Due to bank system maintenance, HKJC FPS Instant EFT is now suspended. The transaction will be processed via Bank Non-Instant Withdrawal and the amount would be credited to your bank account by next working day. Would you like to continue with Bank Non-Instant Withdrawal?"
+					},
+					"Chi": {
+						"cdata-section": "由於銀行系統維護，香港賽馬會轉數快即時轉賬現正暫停服務。該筆款項將改爲以銀行非即時提款方式存入閣下之銀行戶口，需時大約一個工作天。繼續使用銀行非即時提款嗎？"
+					},
+					"KEY": "EFT_OnlineWithdrawal_FPSInstantEFT_BankSystemMaintenance"
+				},
+				{
+					"Eng": {
+						"cdata-section": "Due to bank system maintenance, HKJC FPS Instant EFT is now suspended. Please try again later.\n\n<a href=\"#\">Click here for alternative funds transfer means.</a>"
+					},
+					"Chi": {
+						"cdata-section": "由於銀行系統維護，香港賽馬會轉數快即時轉賬現正暫停服務，請稍後再試。\n\n<a href=\"#\">點擊此處查看其他轉賬方式。</a>"
+					},
+					"KEY": "EFT_OnlineDeposit_FPSInstantEFT_BankSystemMaintenance_WithFormat"
+				},
+				{
+					"Eng": {
+						"cdata-section": "Minimum ${:Minimum}."
+					},
+					"Chi": {
+						"cdata-section": "最低金額${:Minimum}。"
+					},
+					"KEY": "EFT_Transaction_Method_FPSInstantDeposit_Minimum"
+				},
+				{
+					"Eng": {
+						"cdata-section": "Minimum ${:Minimum}."
+					},
+					"Chi": {
+						"cdata-section": "最低金額${:Minimum}。"
+					},
+					"KEY": "EFT_Transaction_Method_EPSInstantDeposit_Minimum"
+				},
+				{
+					"Eng": {
+						"cdata-section": "A transaction fee of HK${:TransFee} will be deducted from the above account."
+					},
+					"Chi": {
+						"cdata-section": "以上的戶口會被扣除港幣${:TransFee}元手續費。"
+					},
+					"KEY": "EFT_Transaction_Method_FPSInstantDeposit_Remark"
+				},
+				{
+					"Eng": {
+						"cdata-section": "PIN is required in the next step."
+					},
+					"Chi": {
+						"cdata-section": "須於交易預覽儲入密碼。"
+					},
+					"KEY": "EFT_Transaction_Method_EPSInstantDeposit_Remark"
+				},
+				{
+					"Eng": {
+						"cdata-section": "Please make sure you have sufficient funds in your bank account before making the transfer, or your bank may charge a service fee for a denial of transfer according to the bank's terms and conditions (e.g. HSBC or Hang Seng Bank). Please contact your bank to apply the fee waiver, if such fee has been charged. The HKJC will not charge any fee."
+					},
+					"Chi": {
+						"cdata-section": "請確保你的銀行賬戶於轉賬前有足夠款項。若銀行拒絕該轉賬，閣下之銀行或會根據其條款收取服務費用(如匯豐或恒生)。如該服務費用已被收取，請即聯絡你的銀行商討退款安排。馬會並不會收取仼何費用。"
+					},
+					"KEY": "EFT_OnlineDeposit_DepositAmount_Note"
+				}
+			]
+		}
+	}
+}
