@@ -1,0 +1,408 @@
+{
+	"INFO": {
+		"Help": {
+			"Add": [
+				{
+					"Key": "UsingThisApp",
+					"Value": "1",
+					"Chi": "https://ibutinfo.hkjc.com/iscontent/help/ch/How_To_Use.html",
+					"Eng": "https://ibutinfo.hkjc.com/iscontent/help/en/How_To_Use.html"
+				},
+				{
+					"Key": "HRBettingGuide",
+					"Value": "1",
+					"Chi": "https://ibutinfo.hkjc.com/iscontent/help/ch/HR_Guide.html",
+					"Eng": "https://ibutinfo.hkjc.com/iscontent/help/en/HR_Guide.html"
+				},
+				{
+					"Key": "FBBettingGuide",
+					"Value": "1",
+					"Chi": "https://ibutinfo.hkjc.com/iscontent/help/ch/FB_Guide.html",
+					"Eng": "https://ibutinfo.hkjc.com/iscontent/help/en/FB_Guide.html"
+				},
+				{
+					"Key": "MK6BettingGuide",
+					"Value": "1",
+					"Chi": "https://ibutinfo.hkjc.com/iscontent/help/ch/MK6_Guide.html",
+					"Eng": "https://ibutinfo.hkjc.com/iscontent/help/en/MK6_Guide.html"
+				},
+				{
+					"Key": "HRBettingRule",
+					"Value": "1",
+					"Chi": "https://www.hkjc.com/chinese/betting/betting_rule.htm#racing",
+					"Eng": "https://www.hkjc.com/english/betting/betting_rule.htm#racing"
+				},
+				{
+					"Key": "FBBettingRule",
+					"Value": "1",
+					"Chi": "https://www.hkjc.com/chinese/betting/betting_rule.htm#football",
+					"Eng": "https://www.hkjc.com/english/betting/betting_rule.htm#football"
+				},
+				{
+					"Key": "MK6BettingRule",
+					"Value": "1",
+					"Chi": "https://www.hkjc.com/chinese/betting/betting_rule.htm#lottories",
+					"Eng": "https://www.hkjc.com/english/betting/betting_rule.htm#lottories"
+				},
+				{
+					"Key": "FacilitiesBettingRule",
+					"Value": "1",
+					"Chi": "https://www.hkjc.com/chinese/betting/betting_rule.htm#facilities",
+					"Eng": "https://www.hkjc.com/english/betting/betting_rule.htm#facilities"
+				},
+				{
+					"Key": "CSSPLogin",
+					"Value": "1",
+					"Title_EN": "HKJC Customer eCentre",
+					"Title_CN": "HKJC網上客戶中心",
+					"Chi": "https://cc.hkjc.com/#?language=zh-hk",
+					"Eng": "https://cc.hkjc.com/#?language=en-us"
+				}
+			]
+		},
+		"AboutThisApp": {
+			"Add": [
+				{
+					"Key": "AboutThisApp",
+					"Value": "1",
+					"Chi": "https://ibutinfo.hkjc.com/iscontent/info/ch/About_This_App.html",
+					"Eng": "https://ibutinfo.hkjc.com/iscontent/info/en/About_This_App.html"
+				}
+			]
+		},
+		"SecurityTips": {
+			"Add": [
+				{
+					"Key": "SecurityTips",
+					"Title_EN": "Security Tips",
+					"Title_CN": "網絡保安",
+					"Value": "1",
+					"Chi": "https://is.hkjc.com/security_tips/inapp/ch/index.html",
+					"Eng": "https://is.hkjc.com/security_tips/inapp/en/index.html"
+				}
+			]
+		},
+		"MaxLegsForAllUp": {
+			"Add": [
+				{
+					"Key": "WIN",
+					"Value": "1",
+					"MaxLegs": 6
+				},
+				{
+					"Key": "PLA",
+					"Value": "1",
+					"MaxLegs": 6
+				},
+				{
+					"Key": "QIN",
+					"Value": "1",
+					"MaxLegs": 6
+				},
+				{
+					"Key": "TRI",
+					"Value": "1",
+					"MaxLegs": 3
+				},
+				{
+					"Key": "QPL",
+					"Value": "1",
+					"MaxLegs": 6
+				},
+				{
+					"Key": "W-P",
+					"Value": "1",
+					"MaxLegs": 6
+				},
+				{
+					"Key": "QQP",
+					"Value": "1",
+					"MaxLegs": 6
+				},
+				{
+					"Key": "CWA",
+					"Value": "1",
+					"MaxLegs": 6
+				},
+				{
+					"Key": "FCT",
+					"Value": "1",
+					"MaxLegs": 3
+				}
+			]
+		},
+		"Video": {
+			"Add": [
+				{
+					"Key": "VideoBarrierTrialUrl",
+					"Value": "1",
+					"URL": "http://streaming-ibu-tablet.hkjc.edgesuite.net/mobile/brts/{:year}/{:date}/{:loc}{:batchno}/{:lang}/brts_{:date}_{:loc}{:batchno}_{:lang}-streaming-ibu-tablet.m3u8"
+				},
+				{
+					"Key": "VideoGallopUrl",
+					"Value": "1",
+					"URL": "http://streaming-ibu-tablet.hkjc.edgesuite.net/mobile/twh/{:brandno}/{:brandno}/{:twvenue}-{:twtrack}-{:twtype}-{:date}/{:lang}/twh_{:brandno}_{:twvenue}-{:twtrack}-{:twtype}-{:date}_{:lang}-streaming-ibu-tablet.m3u8"
+				},
+				{
+					"Key": "VideoTrottingUrl",
+					"Value": "1",
+					"URL": "http://streaming-ibu-tablet.hkjc.edgesuite.net/mobile/twh/{:brandno}/{:brandno}/{:twvenue}-{:twtrack}-{:twtype}-{:date}/{:lang}/twh_{:brandno}_{:twvenue}-{:twtrack}-{:twtype}-{:date}_{:lang}-streaming-ibu-tablet.m3u8"
+				}
+			]
+		},
+		"ELVA": {
+			"Add": [
+				{"Key": "KeepAliveStreamInterval", "Value": "285"},
+				{"Key": "VerifySessionInterval", "Value": "1500"},
+				{"Key": "ProgramScheduleInterval", "Value": "900"},
+				{"Key": "KeepStreamingAlive_Interval", "Value": "285"},
+				{"Key": "getProgramScheduleListDay", "Value": "7"},
+				{"Key": "keepalive_p4", "Value": "https://npwwhkjcwebcast.mtel.ws/racingtouch_sat/api4?method=keepalive"},
+				{"Key": "useraction_p4", "Value": "https://npwwhkjcwebcast.mtel.ws/racingtouch_sat/api4?method=useraction"},
+				{"Key": "getUrls_p4", "Value": "https://npwwhkjcwebcast.mtel.ws/racingtouch_sat/api4?method=getUrls"},
+				{"Key": "authenticationRequest_p4", "Value": "https://npwwhkjcwebcast.mtel.ws/racingtouch_sat/api4?method=authenticationRequest"},
+				{"Key": "programSchedule_p4", "Value": "https://npwwhkjcwebcast.mtel.ws/racingtouch_sat/api4?method=programSchedule"},
+				{"Key": "getProgramScheduleList_p4", "Value": "https://npwwhkjcwebcast.mtel.ws/racingtouch_sat/api4?method=getProgramScheduleList"},
+				{"Key": "Quality", "Value": "HD,HQ,SQ"},
+				{"Key": "StartStreaming", "Value": "/{{channelName}}/livestreaming/{{version}}/{{channelName}}/StartStreaming"},
+				{"Key": "StopStreaming", "Value": "/${{channelName}}/livestreaming/{{version}}/{{channelName}}/StopStreaming"},
+				{"Key": "KeepStreamingAlive", "Value": "/{{channelName}}/livestreaming/{{version}}/{{channelName}}/KeepStreamingAlive"},
+				{"Key": "GetToken", "Value": "https://elogin02nd.qcew.com/api/SSOMobile/GetToken"},
+				{"Key": "EnableSYE", "Value": "1"},
+				{"Key": "EnableDALS_PIP", "Value": "1"},
+				{"Key": "DALS", "Value": "/infoA/DALS/player.html"},
+				{"Key": "Multicam_dals", "Value": "staging-multicam-dals-hkjc.mcs.cdn.mediatech-ssc.com"},
+				{"Key": "MediaTechControl", "Value": "https://eventcontrol.mcs.cdn.mediatech-ssc.com/dals/SAT/testoutput"},
+				{"Key": "MediaTechControl_HDBitrate", "Value": "3000"},
+				{"Key": "MediaTechControl_HQBitrate", "Value": "1500"},
+				{"Key": "MediaTechControl_SQBitrate", "Value": "800"}
+			]
+		},
+		"eWallet": {
+			"NewIconEnabled": "1",
+			"AppAnalyticsEnabled": "1",
+			"QRCodeTimeOutSec": "15",
+			"Enabled": "1",
+			"OTP": {
+				"PeriodOfTimeSec": "180"
+			},
+			"BetQRCode": {
+				"AutoReGenerateEnabled": "0",
+				"CheckStatusSec": "5",
+				"CheckValidationSec": "5",
+				"ExpiredLessThanSec": "30",
+				"WaitingResultMin": "5",
+				"IconPath": "https://sp22dev.blob.core.windows.net/iburn/images/Bet.png"
+			},
+			"TopUpQRCode": {
+				"AutoReGenerateEnabled": "0",
+				"CheckStatusSec": "5",
+				"CheckValidationSec": "5",
+				"ExpiredLessThanSec": "30",
+				"WaitingResultMin": "5",
+				"IconPath": "https://sp22dev.blob.core.windows.net/iburn/images/Deposit.png"
+			},
+			"CashWithDrawalQRCode": {
+				"AutoReGenerateEnabled": "0",
+				"CheckStatusSec": "5",
+				"CheckValidationSec": "5",
+				"ExpiredLessThanSec": "30",
+				"WaitingResultMin": "5",
+				"IconPath": "https://sp22dev.blob.core.windows.net/iburn/images/Withdrawal.png"
+			},
+			"NewIcon": {
+				"PathE": "https://sp22dev.blob.core.windows.net/iburn/images/ewallet_new_en.png",
+				"PathC": "https://sp22dev.blob.core.windows.net/iburn/images/ewallet_new_ch.png"
+			}
+		},
+		"UnitBetPara": {
+			"HorseRacing": {
+				"Add": [
+					{
+						"Key": "W-P",
+						"Value": "10,20,50,100,o",
+						"Default": "10"
+					},
+					{
+						"Key": "QIN",
+						"Value": "101,201,501,1001,o",
+						"Default": "10"
+					},
+					{
+						"Key": "QPL",
+						"Value": "10,20,50,100,o",
+						"Default": "10"
+					},
+					{
+						"Key": "QQP",
+						"Value": "10,20,50,100,o",
+						"Default": "10"
+					},
+					{
+						"Key": "IWN",
+						"Value": "10,20,50,100,o",
+						"Default": "10"
+					},
+					{
+						"Key": "CW",
+						"Value": "10,20,50,100,o",
+						"Default": "10"
+					},
+					{
+						"Key": "FCT",
+						"Value": "10,20,50,100,o",
+						"Default": "10"
+					},
+					{
+						"Key": "TCE",
+						"Value": "1,2,5,10,20,o",
+						"Default": "1"
+					},
+					{
+						"Key": "TRI",
+						"Value": "1,2,5,10,20,o",
+						"Default": "1"
+					},
+					{
+						"Key": "FF",
+						"Value": "1,2,5,10,20,o",
+						"Default": "1"
+					},
+					{
+						"Key": "QTT",
+						"Value": "1,2,5,10,20,o",
+						"Default": "1"
+					},
+					{
+						"Key": "JKC",
+						"Value": "10,20,50,100,o",
+						"Default": "10"
+					},
+					{
+						"Key": "DBL",
+						"Value": "10,20,50,100,o",
+						"Default": "10"
+					},
+					{
+						"Key": "TBL",
+						"Value": "1,2,5,10,20,o",
+						"Default": "1"
+					},
+					{
+						"Key": "DT",
+						"Value": "1,2,5,10,20,o",
+						"Default": "1"
+					},
+					{
+						"Key": "TT",
+						"Value": "2,5,10,20",
+						"Default": "2"
+					},
+					{
+						"Key": "SIXUP",
+						"Value": "2,5,10,20,o",
+						"Default": "2"
+					},
+					{
+						"Key": "XALLUP",
+						"Value": "1,2,5,10,20,o",
+						"Default": "19"
+					},
+					{
+						"Key": "TNC",
+						"Value": "10,20,50,100,o",
+						"Default": "10"
+					}
+				]
+			}
+		},
+		"Simulcast": {
+			"SilkImage": "/infoA/Content/images/racecolor/{meetingdate}_{venuecode}_R{raceno}_H{saddleno}.png"
+		},
+		"EnableGlassBoxAnalytics": "1",
+		"CustomizeQuickAmounts": {
+			"Add": [
+				{
+					"key": "cqba_quick_amount_1",
+					"title": "cqba_quick_amount_1",
+					"value": 10
+				},
+				{
+					"key": "cqba_quick_amount_2",
+					"title": "cqba_quick_amount_2",
+					"value": 100
+				},
+				{
+					"key": "cqba_quick_amount_3",
+					"title": "cqba_quick_amount_3",
+					"value": 1000
+				},
+				{
+					"key": "cqba_quick_amount_4",
+					"title": "cqba_quick_amount_4",
+					"value": 10000
+				}
+			]
+		},
+		"FlexIBetSetting": {
+			"Add": [
+				{"Key": "FlexiBet", "Value": "1"},
+				{"Key": "FlexiBet_winp", "Value": "0"},
+				{"Key": "FlexiBet_plap", "Value": "0"},
+				{"Key": "FlexiBet_wpp", "Value": "0"},
+				{"Key": "FlexiBet_qinp", "Value": "1"},
+				{"Key": "FlexiBet_qplp", "Value": "0"},
+				{"Key": "FlexiBet_qqpp", "Value": "0"},
+				{"Key": "FlexiBet_trip", "Value": "1"},
+				{"Key": "FlexiBet_dblp", "Value": "1"},
+				{"Key": "FlexiBet_tcep", "Value": "1"},
+				{"Key": "FlexiBet_dtp", "Value": "0"},
+				{"Key": "FlexiBet_ttp", "Value": "1"},
+				{"Key": "FlexiBet_tblp", "Value": "1"},
+				{"Key": "FlexiBet_sixupp", "Value": "1"},
+				{"Key": "FlexiBet_qpttp", "Value": "0"},
+				{"Key": "FlexiBet_ffp", "Value": "1"},
+				{"Key": "FlexiBet_alupp", "Value": "1"},
+				{"Key": "FlexiBet_qttp", "Value": "1"},
+				{"Key": "FlexiBet_cwp", "Value": "0"},
+				{"Key": "FlexiBet_iwnp", "Value": "0"},
+				{"Key": "FlexiBet_fctp", "Value": "1"},
+				{"Key": "FlexiBet_xallupp", "Value": "1"},
+				{"Key": "FlexiBet_triple_triop", "Value": "0"},
+				{"Key": "FlexiBet_double_triop", "Value": "1"},
+				{"Key": "FlexiBet_six_upp", "Value": "1"},
+				{"Key": "FlexiBet_all_upp", "Value": "1"}
+			]
+		},
+		"FPSBanner": {
+			"enable": "1",
+			"startTime": "2021-11-17 09:00",
+			"endTime": "2022-11-17 18:00",
+			"image": [
+				{
+					"language": "en-us",
+					"path": "https://sp22dev.blob.core.windows.net/iburn/images/eWalletBanner.png",
+					"URL": "",
+					"inAppLink": {
+						"enable": "0",
+						"to": "Deposit"
+					}
+				},
+				{
+					"language": "zh-hk",
+					"path": "https://sp22dev.blob.core.windows.net/iburn/images/eWalletBanner.png",
+					"URL": "",
+					"inAppLink": {
+						"enable": "0",
+						"to": "Deposit"
+					}
+				}
+			]
+		},
+		"FPS": {
+			"OtherMeans": "1",
+			"WithDrawalOtherMeans": "1",
+			"FPSLinkBankAccountTips": "1"
+		}
+	}
+}
